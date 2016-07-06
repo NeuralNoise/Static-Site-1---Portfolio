@@ -1,9 +1,11 @@
-/*set style for everything*/
+/*Set background for whole page. Set font for all text on page*/
 body{
     font-family: Ubuntu;
     color: white;
     background-color: #00004d;
 }
+
+/*Style for Header "Joe Christiansen"*/
 h1{
     font-size: 30;
     text-align: center;
@@ -15,41 +17,103 @@ h1{
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-    
-    
+    margin-bottom: 20px;
 }
-.info{
-    list-style: none;
+
+/*Contact*/
+/*Style all of the "Contact" section*/
+.contact{
     text-align: left;
     font-size: 15;
     border-style: solid;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+/*Style the "Contact :" header*/
+h2{
+    margin-top: 0px;
+    font-size: 20;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    
+}
+/*Style the text in the Contact box*/
+.info{
+    list-style: none;
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
 } 
 
+/*Bio*/
+/*Style all of the "Bio" section*/
+.bio{
+    text-align: left;
+    font-size: 15;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+}
+/*Style the "Bio :" header*/
+h3{
+    margin-top: 0px;
+    font-size: 20;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Style the text in the Bio box*/
+.hello{
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+
+/*Hobbies*/
+/*Style all of the "Hobbies" section*/
 .hobbies{
     text-align: left;
     font-size: 15;
     border-style: solid;
     border-top-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    padding: 10px;
-    width: 400px;
+    width: 420px;
     margin-left: auto;
     margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
 }
-h2{
+/*Style the "Hobbies :" header*/
+h4{
     margin-top: 0px;
+    font-size: 20;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
-
+/*Style the text in the Hobbies box*/
 .hobbiesList{
     list-style: square;
-    padding-left: 20px;
+    padding-left: 30px;
     margin-top: -10px;
-    margin-bottom: 0px; 
+    margin-bottom: 0px;
 
 }
