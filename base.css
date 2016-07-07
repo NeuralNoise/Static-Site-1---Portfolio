@@ -187,7 +187,7 @@ h5{
     padding-left: 10px;
 }
 /*Style the companiesList*/
-.companiesList{
+/*.companiesList{
     list-style: none;
     width: 400px;
     margin-left: auto;
@@ -196,34 +196,32 @@ h5{
     margin-top: -10px;
     margin-bottom: 0px;
     display: inline;
-}
+}*/
 /*Style the "Apple" text*/
 .apple{
+    position: absolute;    
     padding-left: 10px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
+    margin-top: -20px;
 }
 /*Style the Apple image*/
 .appleImg{
     height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 100px; 
+    max-height: 100px;
 }
 /*Style the "Google" text*/
 .google{
+    position: absolute;    
     padding-left: 10px;
-    margin-top: -10px;
-    margin-bottom: 0px;
-    margin-right: 10px;
+    margin-top: -20px;
 }
 /*Style the Google image*/
 .googleImg{
     height: auto; 
     width: auto; 
-    max-width: 200px; 
-    max-height: 200px;
+    max-width: 100px; 
+    max-height: 100px;
 }
 
 
