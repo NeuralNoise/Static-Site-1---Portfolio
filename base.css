@@ -22,16 +22,10 @@ h1{
     margin-bottom: 20px;
     background-color: rgb(0,0,0);
 }
-
-
-
-/*
-@keyframes falldown1 {
-    0% {
+/*assign the fall animation*/
+h1{
+    animation: fall_h1 5s;
 }
-*/
-
-
 
 /*Contact*/
 /*Style all of the "Contact" section*/
@@ -54,6 +48,10 @@ h1{
 .contact:hover{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,.5);
+}
+/*assign the fall animation*/
+.contact{
+    animation: fall_contact 5s;
 }
 /*Style the "Contact :" header*/
 h2{
@@ -96,6 +94,10 @@ h2{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,.5);
 }
+/*assign the fall animation*/
+.bio{
+    animation: fall_bio 5s;
+}
 /*Style the "Bio :" header*/
 h3{
     margin-top: 0px;
@@ -134,6 +136,10 @@ h3{
     background-color: rgb(0,0,0);
     background-color: rgba(0,0,0,.5);
 }
+/*assign the fall animation*/
+.hobbies{
+    animation: fall_hobbies 5s;
+}
 /*Style the "Hobbies :" header*/
 h4{
     margin-top: 0px;
@@ -149,4 +155,23 @@ h4{
     margin-top: -10px;
     margin-bottom: 0px;
 
+}
+
+
+/*Fall Animations*/
+@keyframes fall_h1 {
+    0% { transform: translateY(-46px); }
+    100% {transform: translateY(0px);}
+}
+@keyframes fall_contact {
+    0% { transform: translateY(-181px); }
+    100% {transform: translateY(0px);}
+}
+@keyframes fall_bio {
+    0% { transform: translateY(-320px); }
+    100% {transform: translateY(0px);}
+}
+@keyframes fall_hobbies {
+    0% { transform: translateY(-570px); }
+    100% {transform: translateY(0px);}
 }
