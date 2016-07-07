@@ -5,6 +5,7 @@ body{
     /*background-color: #00004d;*/
     background-image: url("http://il3.picdn.net/shutterstock/videos/598447/thumb/1.jpg?i10c=img.resize(height:160)");
     background-size: cover;
+    /*background-repeat: repeat-y;*/
 }
 
 /*Style for Header "Joe Christiansen"*/
@@ -156,6 +157,61 @@ h4{
     margin-top: -10px;
     margin-bottom: 0px;
 
+}
+
+/*Favorite Companies*/
+/*Style all of the "Favorite Companies" section*/
+.favCom{
+    text-align: left;
+    font-size: 15;
+    border-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 15px;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,.1);
+    transition: .5s ease-in-out;
+}
+/*Style the "Favorite Companies :" header*/
+h5{
+    margin-top: 0px;
+    font-size: 20;
+    border-bottom-style: solid;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+/*Style the "Apple" text*/
+.apple{
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+/*Style the Apple image*/
+.appleImg{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
+}
+/*Style the "Google" text*/
+.google{
+    padding-left: 10px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    margin-right: 10px;
+}
+/*Style the Google image*/
+.googleImg{
+    height: auto; 
+    width: auto; 
+    max-width: 200px; 
+    max-height: 200px;
 }
 
 
