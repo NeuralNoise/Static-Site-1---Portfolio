@@ -3,8 +3,9 @@ body{
     font-family: Ubuntu;
     color: white;
     /*background-color: #00004d;*/
-    background-image: url("http://il3.picdn.net/shutterstock/videos/598447/thumb/1.jpg?i10c=img.resize(height:160)");
+    background-image: url("background.jpg");
     background-size: cover;
+    background-attachment: fixed;
     /*background-repeat: repeat-y;*/
 }
 
@@ -184,6 +185,17 @@ h5{
     border-bottom-style: solid;
     padding-bottom: 10px;
     padding-left: 10px;
+}
+/*Style the companiesList*/
+.companiesList{
+    list-style: none;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    display: inline;
 }
 /*Style the "Apple" text*/
 .apple{
