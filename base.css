@@ -21,6 +21,7 @@ h1{
     margin-right: auto;
     margin-bottom: 20px;
     background-color: rgb(0,0,0);
+    /*position: fixed;*/
 }
 /*assign the fall animation*/
 h1{
